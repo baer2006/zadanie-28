@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/2246137697.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="row">
+                <img src="img/logo.png" class="img" alt="logo">
+                <ul class="luel">
+                    <li class="link"><a href="#" class="btn">Главная</a></li>
+                    <li class="link"><a href="#" class="btn">Фотографии</a></li>
+                    <li class="link"><a href="#" class="btn-1">Конкурс</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <h1 class="text-1">Конкурс на путешествие с Пинк</h1>
+        <p class="text-2">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль <br> на вашу бонусную карту! Пожалуйста, заполните форму ниже:</p>
+    </div>
+    <div class="container-inner">
+        <form action="" method="get">
+            <div class="form-heder">
+                <div class="blok-full-name">
+                    <div class="row-form">
+                        <label for="surname">фамилия</label>
+                        <input type="text" class="surname" placeholder="Укажите фамилию *" id="surname">
+                    </div>
+                    <div class="row-form">
+                        <label for="sname">имя</label>
+                        <input type="text" class="sname" placeholder="Введите ваше имя *" id="sname"> 
+                    </div>
+                    <div class="row-form1">
+                        <label for="patro">отчество</label>
+                        <input type="text" class="patro" placeholder="Укажите ваше отчество" id="patro">
+                    </div>
+                </div>
+                <div class="blok-applikation">
+                    <fieldset class="line line-1">
+                        <legend class="line-text">с каким приложением путешествовали?</legend>
+                        <div class="row-form-line-1">
+                            <input value="ios" type="radio" class="radio" name="knopka" id="ios">
+                            <label for="ios" class="label-aplikation">Pink для iOS</label>
+                        </div>
+                        <div class="row-form-line-1">
+                            <input value="android" type="radio" class="radio" name="knopka" id="android">
+                            <label for="android" class="label-aplikation">Pink на Android</label>
+                        </div>
+                        <div class="row-form-line-1">
+                            <input value="phone" type="radio" class="radio" name="knopka" id="phone">
+                            <label for="phone" class="label-aplikation">Windows Phone</label>
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+            <div class="blok-kontakt">
+                <fieldset class="line line-box">
+                    <legend class="line-text">контактная информация</legend>
+                    <div class="vis-1">
+                        <div class="displei">
+                            <input class="tell" placeholder="ваш номер телефона" type="text">
+                            <div class="telefon">
+                                <i class="fa-solid fa-tty"></i>
+                            </div>
+                        </div>
+                        <label class="phone" for="telefon">номер телефона</label>
+                    </div>
+                    <div class="vis-2">
+                        <div class="displei">
+                            <input class="tell" placeholder="ваш email*" type="email">
+                            <div class="telefon gmail">
+                                <i class="fa-solid fa-envelope email"></i>
+                            </div>
+                        </div>
+                        <label class="phone" for="telefon">адрес почты</label>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="blok-emotion">
+                <fieldset class="line line-emotion">
+                    <legend class="line-text">опишите свои емоции</legend>
+                    <input class="emotion" type="text" placeholder="можно прям в красках, не стесняясь в выражениях">
+                </fieldset>
+            </div>
+        </form>
+        <div class="btn-text">
+            <button type="submit" class="butt">отправить форму</button>
+            <p>* — обязательные для заполнения поля</p>
+        </div>
+    </div>
+    <section class="footer">
+        <div class="container-inner texto">
+            <p>© Copyright Name Studio</p>
+        </div>
+    </section>
+</body>
+</html>
